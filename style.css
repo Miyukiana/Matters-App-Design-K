@@ -55,6 +55,14 @@ img {
     height: 45px;
     width: 45px;
 }
+#streak{
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    margin: 0 35% 0 35%;
+    border: none;
+    background-color: white;
+}
 .start{
     text-align: right;
     margin-left: auto;
