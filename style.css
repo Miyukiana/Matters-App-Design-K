@@ -23,10 +23,14 @@ li{
      display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 5px 0;
       border-bottom: 1px solid #ccc;
       width: 90%;
+      padding: 5px;
       cursor: pointer;
+      font-size: 14px;
+      background-color: white;
+      border-radius: 5px;
+  
 }
 li::after {
       content: "<";
@@ -34,18 +38,7 @@ li::after {
       font-size: 14px;
       padding: 0 7px;
 }
-button:hover button:active{
-    background-color: yellowgreen;
-    color: white;
-}
-button{
-    color: black;
-    font-size: 14px;
-    border: none;
-    background-color: mintcream;
-    border-radius: none;
-    padding: 0;
-}
+
 body {
     overflow: hidden;
 }
@@ -106,8 +99,10 @@ img:hover, .img:active {
     height: calc(100dvh - 110px);
     margin: 0;
     justify-content: space-between;
-    background-color: mintcream;
-    padding: 0 10% 0 5%; 
+  background: linear-gradient(to top left, yellowgreen, mintcream);
+
+
+ padding: 0 10% 0 5%; 
 }
 #down {
     border: solid 0.5px black;
