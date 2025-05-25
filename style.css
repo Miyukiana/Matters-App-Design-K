@@ -76,7 +76,7 @@ margin: 5px;
 #extra {
     padding: 5px;
     border-radius: 5px;
-    border: solid 1px black;
+    border: solid 0.5px black;
     margin: 15px 0 10px 0;
 }
 /*
@@ -99,7 +99,7 @@ img:hover, .img:active {
     height: calc(100dvh - 110px);
     margin: 0;
     justify-content: space-between;
-  background: linear-gradient(to top left, yellowgreen, mintcream);
+  background: linear-gradient(to top left, rgba(153, 205, 50, 0.765), mintcream);
 
 
  padding: 0 10% 0 5%; 
